@@ -17,6 +17,9 @@ useEffect(() => {
   return (
     <div className="App">
       <h1>Alex EdWordle</h1>
+      <p>Instructions:</p>
+      <p>Type Five Letter Words</p>
+      <p>Hit Enter to Submit</p>
       {solution && <Wordle solution={solution}/>}
     </div>
   );
